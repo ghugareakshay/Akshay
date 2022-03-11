@@ -17,8 +17,19 @@ public class Datatype {
 		float F;
 		System.out.println("Size of Float : F =  " + (Integer.SIZE/8) + " Bytes");
 		double D;
-		System.out.println("Size of Double : D =  " + (Double.SIZE/8) + " Bytes");
-
+		System.out.println("Size of Double : D =  " + (Double.SIZE/8) + " Bytes"+"\n\n\n");
+	
+		// Also we check datatype size following ways:
+		System.out.println("Also we check datatype size following ways:");
+		System.out.println("Type          Size (bytes)");
+        System.out.println("Character       " + Character.BYTES);
+        System.out.println("Byte            " + Byte.BYTES);
+        System.out.println("Integer         " + Integer.BYTES);
+        System.out.println("Long            " + Long.BYTES);
+        System.out.println("Short           " + Short.BYTES);
+        System.out.println("Double          " + Double.BYTES);
+        System.out.println("Float           " + Float.BYTES);
+		
 	}
 
 }
